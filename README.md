@@ -7,8 +7,8 @@ Brief description of your PHP-MySQL project.
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Database Setup](#databasesetup)
-- [XAMPP Configuration](#xamppconfiguration)
+- [Database](#database)
+- [XAMPP](#xampp)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
@@ -35,7 +35,7 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    cd PHP_Crud_App
    
-## Database Setup
+## Database
 
 1. **Create Database:**
 
@@ -72,13 +72,12 @@ Before you begin, ensure you have met the following requirements:
 
    ```php
    <?php
-   dbcon.php
    $servername = "localhost";
    $username = "root";
    $password = "";
    $dbname = "php_crud";
 
-## XAMPP Configuration:
+## XAMPP
 
    Ensure that XAMPP is running, and Apache and MySQL servers are started.
 
