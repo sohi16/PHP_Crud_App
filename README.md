@@ -7,7 +7,7 @@ Brief description of your PHP-MySQL project.
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Database Configuration](#databaseconfiguration)
+- [Database Setup](#databasesetup)
 - [XAMPP Configuration](#xamppconfiguration)
 - [Usage](#usage)
 - [Contributing](#contributing)
