@@ -7,7 +7,8 @@ Brief description of your PHP-MySQL project.
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Configuration](#configuration)
+- [Database Configuration](#database configuration)
+- [XAMPP Configuration] (#xampp configuration)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
@@ -85,8 +86,9 @@ Before you begin, ensure you have met the following requirements:
    Access the project in browser using:
    http://localhost/crud-app/index.php 
 
-## If you would like to contribute to the project, follow these steps:
+## Contributing
 
+If you would like to contribute to the project, follow these steps:
 Fork the project.
 Create a new branch: git checkout -b feature-name.
 Make your changes and commit them: git commit -m 'Add feature'.
