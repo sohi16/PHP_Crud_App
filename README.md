@@ -1,6 +1,5 @@
-# Project Title
-
-Brief description of your PHP-MySQL project.
+# PHP MYSQL CRUD APPLICATION
+I have developed a PHP MySQL CRUD application to perform operations like insert, select, update, delete without reloading the page i.e using ajax with a admin login form.
 
 ## Table of Contents
 
@@ -39,8 +38,8 @@ Before you begin, ensure you have met the following requirements:
 
 1. **Create Database:**
 
-   Open your MySQL database management tool (e.g., phpMyAdmin).
-   Create a new database named `php_crud`.
+   - Open your MySQL database management tool (e.g., phpMyAdmin).
+   - Create a new database named `php_crud`.
 
 2. **Create Tables:**
 
@@ -64,35 +63,36 @@ Before you begin, ensure you have met the following requirements:
      );
      
      ```
-
+   - Add admin email and password in database manually.
+     
 3. **Database Configuration:**
 
    - Open `dbcon.php` and provide your database configuration.
    - Save the file as `dbcon.php`.
 
    ```php
-   <?php
-   $servername = "localhost";
-   $username = "root";
-   $password = "";
-   $dbname = "php_crud";
+      <?php
+      $servername = "localhost";
+      $username = "root";
+      $password = "";
+      $dbname = "php_crud";
 
 ## XAMPP
 
-   Ensure that XAMPP is running, and Apache and MySQL servers are started.
+   - Ensure that XAMPP is running, and Apache and MySQL servers are started.
 
 ## Usage
 
-   Access the project in browser using:
-   http://localhost/crud-app/index.php 
+   - Access the project in browser using:
+     http://localhost/crud-app/index.php 
 
 ## Contributing
 
-If you would like to contribute to the project, follow these steps:
-Fork the project.
-Create a new branch: git checkout -b feature-name.
-Make your changes and commit them: git commit -m 'Add feature'.
-Push to the branch: git push origin feature-name.
-Submit a pull request.
+   - If you would like to contribute to the project, follow these steps:
+   - Fork the project.
+      - Create a new branch: git checkout -b feature-name.
+      - Make your changes and commit them: git commit -m 'Add feature'.
+      - Push to the branch: git push origin feature-name.
+      - Submit a pull request.
 
 
