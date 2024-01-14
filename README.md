@@ -10,7 +10,6 @@ Brief description of your PHP-MySQL project.
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -46,28 +45,52 @@ Before you begin, ensure you have met the following requirements:
    - Run the following SQL script to create the required tables:
 
      ```sql
-     -- Example SQL script
      CREATE TABLE IF NOT EXISTS `users` (
-       `id` INT PRIMARY KEY AUTO_INCREMENT,
-       `username` VARCHAR(255) NOT NULL,
-       `email` VARCHAR(255) NOT NULL,
-       -- Add other columns as needed
+       `User_Id` INT PRIMARY KEY AUTO_INCREMENT,
+       `First_Name` VARCHAR(255) NOT NULL,
+       `Last_Name` VARCHAR(255) NOT NULL,
+       `Email` VARCHAR(255) NOT NULL,
+       `Image` VARCHAR(255) NOT NULL,
+       `Country` VARCHAR(255) NOT NULL,
+       `Gender` VARCHAR(255) NOT NULL,
      );
 
-     -- Add more tables if necessary
+     CREATE TABLE IF NOT EXISTS `admin_login` (
+       `Admin_Id` INT PRIMARY KEY AUTO_INCREMENT,
+       `Admin_Name` VARCHAR(255) NOT NULL,
+       `Admin_Password` VARCHAR(255) NOT NULL,
+     );
+     
      ```
-
-   - Make sure to customize the table structure based on your project requirements.
 
 3. **Database Configuration:**
 
-   - Open `config/db_sample.php` and provide your database configuration.
-   - Save the file as `config/db.php`.
+   - Open `dbcon.php` and provide your database configuration.
+   - Save the file as `dbcon.php`.
 
    ```php
    <?php
-   // config/db.php
-   define('DB_HOST', 'localhost');
-   define('DB_USER', 'your_database_user');
-   define('DB_PASSWORD', 'your_database_password');
-   define('DB_NAME', 'your_database_name');
+   dbcon.php
+   $servername = "localhost";
+   $username = "root";
+   $password = "";
+   $dbname = "php_crud";
+
+## XAMPP Configuration:
+
+   Ensure that XAMPP is running, and Apache and MySQL servers are started.
+
+## Usage
+
+   Access the project in browser using:
+   http://localhost/crud-app/index.php 
+
+## If you would like to contribute to the project, follow these steps:
+
+Fork the project.
+Create a new branch: git checkout -b feature-name.
+Make your changes and commit them: git commit -m 'Add feature'.
+Push to the branch: git push origin feature-name.
+Submit a pull request.
+
+
