@@ -7,8 +7,8 @@ Brief description of your PHP-MySQL project.
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Database Configuration](#database configuration)
-- [XAMPP Configuration] (#xampp configuration)
+- [Database Configuration](#databaseconfiguration)
+- [XAMPP Configuration](#xamppconfiguration)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
@@ -32,6 +32,7 @@ Before you begin, ensure you have met the following requirements:
    
 2. Navigate to the project directory:
 
+   ```bash
    cd PHP_Crud_App
    
 ## Database Setup
